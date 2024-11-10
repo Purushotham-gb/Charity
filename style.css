@@ -56,7 +56,7 @@ header nav ul li a:hover {
 }
 
 .mainimage {
-    background-image: url('pics/main.jpg');
+    background-image: url('main.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
