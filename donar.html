@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="donar.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>BrightPath</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="donation-form-section">
+        <div class="container">
+            <h2>Make a Donation</h2>
+            <p>Thank you for supporting our cause! Please fill out the details below to make a donation. Your contribution can help make a real difference in the lives of children in need.</p>
+
+            <form class="donation-form">
+                <div class="form-group">
+                    <label for="donor-name">Full Name</label>
+                    <input type="text" id="donor-name" name="donor-name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="donor-email">Email Address</label>
+                    <input type="email" id="donor-email" name="donor-email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="donation-amount">Donation Amount</label>
+                    <input type="number" id="donation-amount" name="donation-amount" placeholder="Enter donation amount" required>
+                </div>
+                <div class="form-group">
+                    <label for="preferred-fund">Preferred Fund</label>
+                    <select id="preferred-fund" name="preferred-fund" required>
+                        <option value="education">Education Fund</option>
+                        <option value="health">Health Fund</option>
+                        <option value="food-security">Food Security Fund</option>
+                        <option value="general">General Fund</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-number">Contact Number</label>
+                    <input type="tel" id="contact-number" name="contact-number" placeholder="Enter your contact number">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message (Optional)</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any message or instructions (optional)"></textarea>
+                </div>
+
+                <a href="subdonate.html" class="btn-donate">Donate Now</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BrightPath Foundation | All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
